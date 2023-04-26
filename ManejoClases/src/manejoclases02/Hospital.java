@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 package manejoclases02;
-
+// static para acumulacion
 public class Hospital {
-    private String nombre;
-    private int numeroCamas;
-    private double presupuesto;
+    String nombre; // el static se asocia al nombre de la clase, no al objeto
+    int numeroCamas;
+    double presupuesto;
 }

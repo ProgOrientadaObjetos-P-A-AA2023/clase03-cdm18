@@ -7,7 +7,8 @@ package manejoclases01;
 
 
 public class Hospital {
-    String nombre;
+    String nombre; //\publica solo para ese paquete
     int numeroCamas;
     double presupuesto;
+    boolean corrupcion;
 }
